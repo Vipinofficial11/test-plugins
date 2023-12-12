@@ -20,7 +20,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 /**
- * Test Runner to execute S3 cases.
+ * Test Runner to execute EnvTesterTransform cases.
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -28,9 +28,9 @@ import org.junit.runner.RunWith;
   glue = {"stepsdesign", "io.cdap.plugin.testplugins.common.stepsdesign", "io.cdap.plugin.testplugins.stepsdesign"},
   tags = {"@ENV"},
   monochrome = true,
-  plugin = {"pretty", "html:target/cucumber-html-report/s3",
-    "json:target/cucumber-reports/cucumber-s3.json",
-    "junit:target/cucumber-reports/cucumber-s3.xml"}
+  plugin = {"pretty", "html:target/cucumber-html-report/envTester",
+    "json:target/cucumber-reports/cucumber-envTester.json",
+    "junit:target/cucumber-reports/cucumber-envTester.xml"}
 )
 public class TestRunner {
 }

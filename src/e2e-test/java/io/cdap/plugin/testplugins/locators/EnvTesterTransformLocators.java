@@ -21,7 +21,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 /**
- * Deduplicate Related Locators.
+ * EnvTesterTransform Related Locators.
  */
 public class EnvTesterTransformLocators {
   public static WebElement envVariablesInputBox(int row) {
