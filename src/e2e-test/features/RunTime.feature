@@ -125,4 +125,4 @@ Feature: Env Tester Transform - Run time scenarios
     And set runtime argument with value "invalidMultipleEnvVars" and key "jvmOptions"
     And Wait till pipeline is in running state
     And Open and capture logs
-    Then Verify the pipeline status is "failed"
+    Then Verify the pipeline status is "Failed"

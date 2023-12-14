@@ -15,6 +15,6 @@
  */
 
 /**
- * Package contains the stepDesign for the Env Tester Transform features
+ * Package contains the stepDesign for the Env Tester Transform features.
  */
 package io.cdap.plugin.testplugins.stepsdesign;

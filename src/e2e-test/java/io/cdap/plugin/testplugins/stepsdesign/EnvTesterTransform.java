@@ -15,15 +15,15 @@
  */
 package io.cdap.plugin.testplugins.stepsdesign;
 
+import io.cdap.e2e.utils.CdfHelper;
 import io.cdap.plugin.testplugins.actions.EnvTesterTransformActions;
 import io.cucumber.java.en.And;
-import io.cdap.e2e.utils.CdfHelper;
 import io.cucumber.java.en.Then;
 
 /**
  * Env Tester Transform Plugin related step design.
  */
-public class EnvTesterTransform implements CdfHelper{
+public class EnvTesterTransform implements CdfHelper {
     @And("Enter Environment variables with value: {string}")
     public void enterEnvironmentVariablesWithValue(String value) {
         EnvTesterTransformActions.enterEnvironmentVariable(value);

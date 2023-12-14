@@ -28,9 +28,8 @@ import org.junit.runner.RunWith;
   glue = {"stepsdesign", "io.cdap.plugin.testplugins.common.stepsdesign", "io.cdap.plugin.testplugins.stepsdesign"},
   tags = {"@ENV"},
   monochrome = true,
-  plugin = {"pretty", "html:target/cucumber-html-report/envTester",
-    "json:target/cucumber-reports/cucumber-envTester.json",
-    "junit:target/cucumber-reports/cucumber-envTester.xml"}
+  plugin = {"pretty", "html:target/cucumber-html-report", "json:target/cucumber-reports/cucumber.json",
+                "junit:target/cucumber-reports/cucumber.xml"}
 )
 public class TestRunner {
 }
